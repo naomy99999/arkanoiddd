@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "arkanoid",
+			"Path": "D:\\arkanoidd-master\\Source\\arkanoid.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "arkanoidEditor",
+			"Path": "D:\\arkanoidd-master\\Source\\arkanoidEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

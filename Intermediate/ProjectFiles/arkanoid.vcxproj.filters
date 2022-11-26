@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\arkanoid.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F3ABECCF-AF43-45E4-8492-212670F0E836}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\arkanoid.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\arkanoidEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{63920D63-3774-459C-A9EC-C98A95F8B9DC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\arkanoid">
+      <UniqueIdentifier>{87400861-87C4-451D-BB6C-E44FAD9E6148}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\arkanoid\arkanoid.Build.cs">
+      <Filter>Source\arkanoid</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\arkanoid\arkanoid.cpp">
+      <Filter>Source\arkanoid</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\arkanoid\arkanoid.h">
+      <Filter>Source\arkanoid</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\arkanoid\arkanoidGameModeBase.cpp">
+      <Filter>Source\arkanoid</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\arkanoid\arkanoidGameModeBase.h">
+      <Filter>Source\arkanoid</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\arkanoid\Ball.cpp">
+      <Filter>Source\arkanoid</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\arkanoid\Ball.h">
+      <Filter>Source\arkanoid</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\arkanoid\BallBound.cpp">
+      <Filter>Source\arkanoid</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\arkanoid\BallBound.h">
+      <Filter>Source\arkanoid</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\arkanoid\Brick.cpp">
+      <Filter>Source\arkanoid</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\arkanoid\Brick.h">
+      <Filter>Source\arkanoid</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\arkanoid\HardBrick.cpp">
+      <Filter>Source\arkanoid</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\arkanoid\HardBrick.h">
+      <Filter>Source\arkanoid</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\arkanoid\MyBrick.cpp">
+      <Filter>Source\arkanoid</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\arkanoid\MyBrick.h">
+      <Filter>Source\arkanoid</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\arkanoid\Paddle.cpp">
+      <Filter>Source\arkanoid</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\arkanoid\Paddle.h">
+      <Filter>Source\arkanoid</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\arkanoid\Paddle_Player_Controller.cpp">
+      <Filter>Source\arkanoid</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\arkanoid\Paddle_Player_Controller.h">
+      <Filter>Source\arkanoid</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

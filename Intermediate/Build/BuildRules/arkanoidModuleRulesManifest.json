@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\arkanoidd-master\\Source\\arkanoid\\arkanoid.Build.cs",
+		"D:\\arkanoidd-master\\Source\\arkanoid.Target.cs",
+		"D:\\arkanoidd-master\\Source\\arkanoidEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
