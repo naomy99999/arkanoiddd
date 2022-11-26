@@ -13,5 +13,12 @@ UCLASS()
 class ARKANOID_API AHardBrick : public ABrick
 {
 	GENERATED_BODY()
-	
+
+		AHardBrick();
+public:
+	void DestroyBrick();
+
+protected:
+	void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndexType, bool bFromSweep, const FHitResult& SweepResult);
 };
+
