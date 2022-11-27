@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodearkanoid_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x3DBA29AD,
-				0xB8A509F1,
+				0x532133D6,
+				0xC622EF03,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
