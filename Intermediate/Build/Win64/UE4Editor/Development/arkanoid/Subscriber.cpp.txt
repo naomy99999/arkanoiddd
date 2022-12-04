@@ -1,0 +1,3 @@
+D:\arkanoidd-master\Intermediate\Build\Win64\UE4Editor\Development\arkanoid\Definitions.arkanoid.h
+D:\arkanoidd-master\Source\arkanoid\Subscriber.h
+D:\arkanoidd-master\Intermediate\Build\Win64\UE4Editor\Inc\arkanoid\Subscriber.generated.h

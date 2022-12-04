@@ -1,0 +1,20 @@
+D:\arkanoidd-master\Intermediate\Build\Win64\UE4Editor\Development\arkanoid\Definitions.arkanoid.h
+D:\arkanoidd-master\Source\arkanoid\arkanoidGameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\arkanoidd-master\Intermediate\Build\Win64\UE4Editor\Inc\arkanoid\arkanoidGameModeBase.generated.h
+D:\arkanoidd-master\Source\arkanoid\Brick.h
+D:\arkanoidd-master\Intermediate\Build\Win64\UE4Editor\Inc\arkanoid\Brick.generated.h
+D:\arkanoidd-master\Source\arkanoid\Paddle.h
+D:\arkanoidd-master\Intermediate\Build\Win64\UE4Editor\Inc\arkanoid\Paddle.generated.h
+D:\arkanoidd-master\Source\arkanoid\Queen.h
+D:\arkanoidd-master\Intermediate\Build\Win64\UE4Editor\Inc\arkanoid\Queen.generated.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\vector
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\xmemory
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\limits
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\cfloat
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\cwchar
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\cstdio
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\isa_availability.h
