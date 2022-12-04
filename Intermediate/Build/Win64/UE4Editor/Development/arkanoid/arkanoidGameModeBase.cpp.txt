@@ -18,3 +18,7 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.3162
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\cwchar
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\cstdio
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\isa_availability.h
+D:\arkanoidd-master\Source\arkanoid\CapsuleN.h
+D:\arkanoidd-master\Source\arkanoid\CapsuleObj.h
+D:\arkanoidd-master\Intermediate\Build\Win64\UE4Editor\Inc\arkanoid\CapsuleObj.generated.h
+D:\arkanoidd-master\Intermediate\Build\Win64\UE4Editor\Inc\arkanoid\CapsuleN.generated.h

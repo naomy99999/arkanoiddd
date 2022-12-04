@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ARKANOID_Builder_generated_h
 
-#define arkanoidd_master_Source_arkanoid_Builder_h_12_SPARSE_DATA
-#define arkanoidd_master_Source_arkanoid_Builder_h_12_RPC_WRAPPERS
-#define arkanoidd_master_Source_arkanoid_Builder_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define arkanoidd_master_Source_arkanoid_Builder_h_12_INCLASS_NO_PURE_DECLS \
+#define arkanoidd_master_Source_arkanoid_Builder_h_13_SPARSE_DATA
+#define arkanoidd_master_Source_arkanoid_Builder_h_13_RPC_WRAPPERS
+#define arkanoidd_master_Source_arkanoid_Builder_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define arkanoidd_master_Source_arkanoid_Builder_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABuilder(); \
 	friend struct Z_Construct_UClass_ABuilder_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ABuilder)
 
 
-#define arkanoidd_master_Source_arkanoid_Builder_h_12_INCLASS \
+#define arkanoidd_master_Source_arkanoid_Builder_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesABuilder(); \
 	friend struct Z_Construct_UClass_ABuilder_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ABuilder)
 
 
-#define arkanoidd_master_Source_arkanoid_Builder_h_12_STANDARD_CONSTRUCTORS \
+#define arkanoidd_master_Source_arkanoid_Builder_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABuilder(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABuilder) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define arkanoidd_master_Source_arkanoid_Builder_h_12_ENHANCED_CONSTRUCTORS \
+#define arkanoidd_master_Source_arkanoid_Builder_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABuilder(ABuilder&&); \
@@ -58,28 +58,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABuilder)
 
 
-#define arkanoidd_master_Source_arkanoid_Builder_h_12_PRIVATE_PROPERTY_OFFSET
-#define arkanoidd_master_Source_arkanoid_Builder_h_9_PROLOG
-#define arkanoidd_master_Source_arkanoid_Builder_h_12_GENERATED_BODY_LEGACY \
+#define arkanoidd_master_Source_arkanoid_Builder_h_13_PRIVATE_PROPERTY_OFFSET
+#define arkanoidd_master_Source_arkanoid_Builder_h_10_PROLOG
+#define arkanoidd_master_Source_arkanoid_Builder_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	arkanoidd_master_Source_arkanoid_Builder_h_12_PRIVATE_PROPERTY_OFFSET \
-	arkanoidd_master_Source_arkanoid_Builder_h_12_SPARSE_DATA \
-	arkanoidd_master_Source_arkanoid_Builder_h_12_RPC_WRAPPERS \
-	arkanoidd_master_Source_arkanoid_Builder_h_12_INCLASS \
-	arkanoidd_master_Source_arkanoid_Builder_h_12_STANDARD_CONSTRUCTORS \
+	arkanoidd_master_Source_arkanoid_Builder_h_13_PRIVATE_PROPERTY_OFFSET \
+	arkanoidd_master_Source_arkanoid_Builder_h_13_SPARSE_DATA \
+	arkanoidd_master_Source_arkanoid_Builder_h_13_RPC_WRAPPERS \
+	arkanoidd_master_Source_arkanoid_Builder_h_13_INCLASS \
+	arkanoidd_master_Source_arkanoid_Builder_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define arkanoidd_master_Source_arkanoid_Builder_h_12_GENERATED_BODY \
+#define arkanoidd_master_Source_arkanoid_Builder_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	arkanoidd_master_Source_arkanoid_Builder_h_12_PRIVATE_PROPERTY_OFFSET \
-	arkanoidd_master_Source_arkanoid_Builder_h_12_SPARSE_DATA \
-	arkanoidd_master_Source_arkanoid_Builder_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	arkanoidd_master_Source_arkanoid_Builder_h_12_INCLASS_NO_PURE_DECLS \
-	arkanoidd_master_Source_arkanoid_Builder_h_12_ENHANCED_CONSTRUCTORS \
+	arkanoidd_master_Source_arkanoid_Builder_h_13_PRIVATE_PROPERTY_OFFSET \
+	arkanoidd_master_Source_arkanoid_Builder_h_13_SPARSE_DATA \
+	arkanoidd_master_Source_arkanoid_Builder_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	arkanoidd_master_Source_arkanoid_Builder_h_13_INCLASS_NO_PURE_DECLS \
+	arkanoidd_master_Source_arkanoid_Builder_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

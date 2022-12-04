@@ -7,7 +7,7 @@
 #include "Paddle.h"
 #include "Queen.h"
 #include <vector> 
-
+#include "CapsuleN.h"
 
 AarkanoidGameModeBase::AarkanoidGameModeBase() 
 {
@@ -29,6 +29,16 @@ void AarkanoidGameModeBase::BeginPlay()
 				FString::Printf(TEXT("%s has been created"), *paleta->GetName()));
 		}
 	}
+	
+reyna = GetWorld()->SpawnActor<AQueen>(AQueen::StaticClass());
+
+reyna->setRostro("expresion");
+reyna->setBrazo("fuerza");
+reyna->setPierna("velocidad");
+reyna->setMovimientoX(0.0f);
+reyna->setMovimientoY(0.0f);
+reyna->setProyectil("zapato");
+
 }
 
 void AarkanoidGameModeBase::Tick(float DeltaTime)

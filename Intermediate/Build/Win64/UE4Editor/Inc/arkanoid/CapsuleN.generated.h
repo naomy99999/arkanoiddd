@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ARKANOID_CapsuleN_generated_h
 
-#define arkanoidd_master_Source_arkanoid_CapsuleN_h_12_SPARSE_DATA
-#define arkanoidd_master_Source_arkanoid_CapsuleN_h_12_RPC_WRAPPERS
-#define arkanoidd_master_Source_arkanoid_CapsuleN_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define arkanoidd_master_Source_arkanoid_CapsuleN_h_12_INCLASS_NO_PURE_DECLS \
+#define arkanoidd_master_Source_arkanoid_CapsuleN_h_14_SPARSE_DATA
+#define arkanoidd_master_Source_arkanoid_CapsuleN_h_14_RPC_WRAPPERS
+#define arkanoidd_master_Source_arkanoid_CapsuleN_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define arkanoidd_master_Source_arkanoid_CapsuleN_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACapsuleN(); \
 	friend struct Z_Construct_UClass_ACapsuleN_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ACapsuleN)
 
 
-#define arkanoidd_master_Source_arkanoid_CapsuleN_h_12_INCLASS \
+#define arkanoidd_master_Source_arkanoid_CapsuleN_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesACapsuleN(); \
 	friend struct Z_Construct_UClass_ACapsuleN_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ACapsuleN)
 
 
-#define arkanoidd_master_Source_arkanoid_CapsuleN_h_12_STANDARD_CONSTRUCTORS \
+#define arkanoidd_master_Source_arkanoid_CapsuleN_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACapsuleN(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACapsuleN) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define arkanoidd_master_Source_arkanoid_CapsuleN_h_12_ENHANCED_CONSTRUCTORS \
+#define arkanoidd_master_Source_arkanoid_CapsuleN_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACapsuleN(ACapsuleN&&); \
@@ -58,28 +58,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACapsuleN)
 
 
-#define arkanoidd_master_Source_arkanoid_CapsuleN_h_12_PRIVATE_PROPERTY_OFFSET
-#define arkanoidd_master_Source_arkanoid_CapsuleN_h_9_PROLOG
-#define arkanoidd_master_Source_arkanoid_CapsuleN_h_12_GENERATED_BODY_LEGACY \
+#define arkanoidd_master_Source_arkanoid_CapsuleN_h_14_PRIVATE_PROPERTY_OFFSET
+#define arkanoidd_master_Source_arkanoid_CapsuleN_h_11_PROLOG
+#define arkanoidd_master_Source_arkanoid_CapsuleN_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	arkanoidd_master_Source_arkanoid_CapsuleN_h_12_PRIVATE_PROPERTY_OFFSET \
-	arkanoidd_master_Source_arkanoid_CapsuleN_h_12_SPARSE_DATA \
-	arkanoidd_master_Source_arkanoid_CapsuleN_h_12_RPC_WRAPPERS \
-	arkanoidd_master_Source_arkanoid_CapsuleN_h_12_INCLASS \
-	arkanoidd_master_Source_arkanoid_CapsuleN_h_12_STANDARD_CONSTRUCTORS \
+	arkanoidd_master_Source_arkanoid_CapsuleN_h_14_PRIVATE_PROPERTY_OFFSET \
+	arkanoidd_master_Source_arkanoid_CapsuleN_h_14_SPARSE_DATA \
+	arkanoidd_master_Source_arkanoid_CapsuleN_h_14_RPC_WRAPPERS \
+	arkanoidd_master_Source_arkanoid_CapsuleN_h_14_INCLASS \
+	arkanoidd_master_Source_arkanoid_CapsuleN_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define arkanoidd_master_Source_arkanoid_CapsuleN_h_12_GENERATED_BODY \
+#define arkanoidd_master_Source_arkanoid_CapsuleN_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	arkanoidd_master_Source_arkanoid_CapsuleN_h_12_PRIVATE_PROPERTY_OFFSET \
-	arkanoidd_master_Source_arkanoid_CapsuleN_h_12_SPARSE_DATA \
-	arkanoidd_master_Source_arkanoid_CapsuleN_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	arkanoidd_master_Source_arkanoid_CapsuleN_h_12_INCLASS_NO_PURE_DECLS \
-	arkanoidd_master_Source_arkanoid_CapsuleN_h_12_ENHANCED_CONSTRUCTORS \
+	arkanoidd_master_Source_arkanoid_CapsuleN_h_14_PRIVATE_PROPERTY_OFFSET \
+	arkanoidd_master_Source_arkanoid_CapsuleN_h_14_SPARSE_DATA \
+	arkanoidd_master_Source_arkanoid_CapsuleN_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	arkanoidd_master_Source_arkanoid_CapsuleN_h_14_INCLASS_NO_PURE_DECLS \
+	arkanoidd_master_Source_arkanoid_CapsuleN_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\arkanoid.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{0EF13A66-4470-40E5-9850-1E13A5646CAA}</UniqueIdentifier>
+      <UniqueIdentifier>{8DE3A548-C015-4227-B14F-9BC0D3194B02}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\arkanoid.Target.cs">
       <Filter>Source</Filter>
@@ -16,7 +16,7 @@
     <None Include="..\..\QUEEN.ipch" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{7D005A36-F410-40F1-946C-FD78C2D4A123}</UniqueIdentifier>
+      <UniqueIdentifier>{D7DDAC7E-0BB5-4359-9296-96A888AF3FFB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -31,7 +31,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\arkanoid">
-      <UniqueIdentifier>{4CCED602-C80C-4C63-8FD5-9AC8D8F93E8D}</UniqueIdentifier>
+      <UniqueIdentifier>{B54F127A-71D2-4845-B600-883EFC1A86DE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\arkanoid\arkanoid.Build.cs">
       <Filter>Source\arkanoid</Filter>
@@ -78,10 +78,16 @@
     <ClInclude Include="..\..\Source\arkanoid\CapsuleN.h">
       <Filter>Source\arkanoid</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\arkanoid\ClockTower.cpp">
+    <ClCompile Include="..\..\Source\arkanoid\CapsuleObj.cpp">
       <Filter>Source\arkanoid</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\arkanoid\ClockTower.h">
+    <ClInclude Include="..\..\Source\arkanoid\CapsuleObj.h">
+      <Filter>Source\arkanoid</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\arkanoid\DamageCapsule.cpp">
+      <Filter>Source\arkanoid</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\arkanoid\DamageCapsule.h">
       <Filter>Source\arkanoid</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\arkanoid\HardBrick.cpp">
@@ -96,12 +102,6 @@
     <ClInclude Include="..\..\Source\arkanoid\Morph.h">
       <Filter>Source\arkanoid</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\arkanoid\OldSchoolSlotMachine.cpp">
-      <Filter>Source\arkanoid</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\arkanoid\OldSchoolSlotMachine.h">
-      <Filter>Source\arkanoid</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\arkanoid\Paddle.cpp">
       <Filter>Source\arkanoid</Filter>
     </ClCompile>
@@ -112,6 +112,12 @@
       <Filter>Source\arkanoid</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\arkanoid\Paddle_Player_Controller.h">
+      <Filter>Source\arkanoid</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\arkanoid\PowerCapsule.cpp">
+      <Filter>Source\arkanoid</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\arkanoid\PowerCapsule.h">
       <Filter>Source\arkanoid</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\arkanoid\Publisher.cpp">

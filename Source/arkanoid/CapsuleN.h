@@ -4,7 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "CapsuleObj.h"
 #include "CapsuleN.generated.h"
+
 
 UCLASS()
 class ARKANOID_API ACapsuleN : public AActor
@@ -23,4 +25,8 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	virtual ACapsuleObj* ConcoctCapsule(FString CapsuleSKU)
+		PURE_VIRTUAL(ACapsuleN::ConcoctCapsule, return nullptr;);
+	//Order, concoct and returns a Potion of a specific Category 
+	ACapsuleObj* OrderCapsule(FString Category);
 };

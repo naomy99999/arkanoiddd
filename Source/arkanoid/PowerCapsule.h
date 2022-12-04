@@ -3,14 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Publisher.h"
-#include "ClockTower.generated.h"
+#include "CapsuleN.h"
+#include "PowerCapsule.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class ARKANOID_API AClockTower : public APublisher
+class ARKANOID_API APowerCapsule : public ACapsuleN
 {
 	GENERATED_BODY()
 	

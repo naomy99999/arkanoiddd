@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Builder.generated.h"
 
+
 UCLASS()
 class ARKANOID_API ABuilder : public AActor
 {
@@ -24,5 +25,6 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
 
 };
