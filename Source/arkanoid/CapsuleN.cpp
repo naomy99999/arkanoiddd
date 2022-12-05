@@ -24,15 +24,3 @@ void ACapsuleN::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
-
-ACapsuleN* OrderCapsule(FString Category)
-{
-	ACapsuleObj* Capsule = ConcoctCapsule(Category);
-	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Concocting %s"), *Capsule->GetCapsuleName())); 
-	//Start the concoct process 
-	Capsule->Boil(); 
-	Capsule->Bubble();
-	Capsule->Brew();
-	Capsule->Bottle(); 
-	//Returns the created potion 
-	return	;
